@@ -28,7 +28,7 @@ GM.Config.allowrpnames                  = true
 -- allowsprays - Enable/disable the use of sprays on the server.
 GM.Config.allowsprays                   = true
 -- allowvehicleowning - Enable/disable whether people can own vehicles.
-GM.Config.allowvehicleowning            = true
+GM.Config.allowvehicleowning            = false;
 -- allowvnocollide - Enable/disable the ability to no-collide a vehicle (for security).
 GM.Config.allowvnocollide               = false
 -- alltalk - Enable for global chat, disable for local chat.
@@ -122,7 +122,7 @@ GM.Config.noguns                        = false
 -- norespawn - Enable/Disable that people don't have to respawn when they change job.
 GM.Config.norespawn                     = true
 -- npcarrest - Enable/disable arresting npc's.
-GM.Config.npcarrest                     = true
+GM.Config.npcarrest                     = false
 -- ooc - Whether or not OOC tags are enabled.
 GM.Config.ooc                           = true
 -- propertytax - Enable/disable property tax.
@@ -174,7 +174,7 @@ GM.Config.weaponCheckerHideNoLicense    = false
 Value settings
 ]]
 -- adminnpcs - Whether or not NPCs should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
-GM.Config.adminnpcs                     = 3
+GM.Config.adminnpcs                     = 2
 -- adminsents - Whether or not SENTs should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
 GM.Config.adminsents                    = 1
 -- adminvehicles - Whether or not vehicles should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
@@ -395,7 +395,7 @@ GM.Config.CategoryOverride = {
         ["Glock"]                               = "Pistols",
         ["P228"]                                = "Pistols",
     },
-    vehicles = {}, -- There are no default vehicles.
+    vehicle =  {}, -- There are no default vehicles.
     ammo = {
         ["Pistol ammo"]                         = "Other",
         ["Shotgun ammo"]                        = "Other",
